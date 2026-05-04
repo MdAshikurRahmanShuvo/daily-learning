@@ -451,3 +451,97 @@ where City=@City AND EmpName=@EmpName
 Go
 
 exec AllRecords4 @City='Dhaka',@EmpName='Ashik';
+
+
+--Create Index Read & Search r speed varai fast kaj kora onek fast data show kora Ar fast Scan kora
+use ashikdb;
+Create Index MyIndex
+on employee(EmpName);
+SELECT * 
+FROM employee
+WHERE EmpName = 'Ashik';
+
+--For Multiple column set as a index
+Create Index Myindex2
+on employee(EmpName,Salary);
+
+
+--Delete Index
+Drop INDEX employee.Myindex2;
+
+
+--Create Backup Table or Copy and paste Data from one to another table(full table copy)
+select * into backup_employee
+from employee;
+
+select * from backup_employee;
+
+
+--Create Backup Table or Copy and paste Data from one to another table(Specific Column copy)
+Select EmpName,Salary into backup_employee2
+from employee;
+
+Select * from backup_employee2;
+
+
+
+--For Visualize top datas
+Select Top 5 * from employee; --it shows top 5 rows data
+
+Select top 50 percent * from employee; --it shows first 50% data
+
+Select top 90 percent * from employee; --it shows first 90% datas
+
+--Top with where
+Select top 80 percent * from employee
+where Salary>70000;
+
+
+--For backup Database in Disk 
+backup database ashikdb
+to disk='C:\Users\ASUS\Desktop\Database_backup\amit_tutorial.bak';
+
+
+--Restore the backupdatabase
+Restore Database ashikdb_copy
+From disk='C:\Users\ASUS\Desktop\Database_backup\amit_tutorial.bak'
+with replace;
+
+
+
+--Show View (Virtual table of main table)
+use ashikdb;
+create view  [employee Dhaka City] 
+AS
+Select EmpName,City,Salary
+from employee
+where City='Dhaka';
+
+select * from [employee Dhaka City];
+Select EmpName,Salary from [employee Dhaka City];
+
+
+create view [employee 80000 Salary] 
+AS
+Select * from employee
+where Salary>80000;
+
+select * from [employee 80000 Salary];
+select * from [employee Dhaka City];
+
+
+--Delete View
+Drop View [employee Dhaka City];
+
+select * from [employee Dhaka City];
+
+
+create table abc(
+	id int,
+	name varchar(255)
+	);
+
+--Delete a table
+Drop table abc;
+
+select * from abc;
