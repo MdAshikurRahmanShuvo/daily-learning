@@ -323,7 +323,113 @@ values(4,'Izaz','Dhaka',45000);
 insert into Employee_info(EmpID,EmpName,City,Salary)
 values(5,'Imtiaz','Khulna',57000);
 
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (6,'Shawon','Dhaka',145000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (7,'Sabbir','Chittagong',35000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (8,'Polash','Rajshahi',18000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (9,'Shuvo','Dhaka',75000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (10,'Shakil','Dhaka',50000);
 
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (11,'Rafi','Dhaka',32000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (12,'Nayeem','Sylhet',41000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (13,'Tanvir','Dhaka',88000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (14,'Rakib','Rajshahi',27000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (15,'Hasan','Khulna',60000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (16,'Siam','Dhaka',15000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (17,'Fahim','Chittagong',72000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (18,'Jubayer','Sylhet',39000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (19,'Mehedi','Dhaka',51000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (20,'Arif','Khulna',45000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (21,'Rony','Dhaka',30000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (22,'Bappi','Rajshahi',20000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (23,'Kamal','Chittagong',95000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (24,'Sohel','Dhaka',47000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (25,'Nabil','Sylhet',52000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (26,'Tarek','Dhaka',61000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (27,'Emon','Khulna',28000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (28,'Sohan','Dhaka',99000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (29,'Farhan','Chittagong',43000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (30,'Adnan','Rajshahi',37000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (31,'Ashik','Dhaka',28000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (32,'Rafi','Dhaka',32000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (33,'Sabbir','Chittagong',35000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (34,'Nayeem','Sylhet',41000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (35,'Karim','Dhaka',50000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (36,'Rahim','Dhaka',50000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (37,'Jamal','Khulna',50000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (38,'Ashik','Chittagong',60000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (39,'Shuvo','Dhaka',75000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (40,'Imtiaz','Khulna',57000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (41,'Rahim','Dhaka',30000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (42,'Rahim','Chittagong',45000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (43,'Rahim','Khulna',55000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (44,'Karim','Dhaka',25000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (45,'Karim','Sylhet',47000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (46,'Sabbir','Dhaka',38000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (47,'Sabbir','Rajshahi',62000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (48,'Rony','Dhaka',40000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (49,'Babul','Chittagong',40000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (50,'Kader','Khulna',40000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (51,'Sumon','Dhaka',70000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (52,'Jewel','Sylhet',70000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (53,'Noman','Rajshahi',55000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (54,'Habib','Dhaka',55000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (55,'Unknown','Dhaka',55000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (56,'Ashik','Dhaka',55000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (57,'Mehedi Hasan Shobuj','Rajshahi',55000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (58,'Sheab','Dhaka',55000);
+
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (59,'Rahim','Dhaka',52000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (60,'Karim','Chittagong',48000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (61,'Jamal','Khulna',47000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (62,'Kamal','Sylhet',51000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (63,'Sabbir','Barisal',46000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (64,'Tanvir','Dhaka',53000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (65,'Nayeem','Rajshahi',49000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (66,'Fahim','Rangpur',45000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (67,'Rafi','Dhaka',54000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (68,'Shakil','Khulna',47000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (69,'Imran','Sylhet',52000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (70,'Sohel','Barisal',46000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (71,'Rakib','Dhaka',55000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (72,'Biplob','Chittagong',48000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (73,'Sumon','Rajshahi',50000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (74,'Masud','Khulna',47000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (75,'Rony','Sylhet',51000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (76,'Sakib','Dhaka',56000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (77,'Anik','Rangpur',45000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (78,'Mizan','Barisal',46000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (79,'Hasib','Dhaka',53000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (80,'Arif','Chittagong',49000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (81,'Naim','Rajshahi',50000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (82,'Shohag','Khulna',47000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (83,'Rasel','Sylhet',52000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (84,'Jahid','Dhaka',55000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (85,'Liton','Rangpur',45000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (86,'Monir','Barisal',46000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (87,'Faruk','Dhaka',54000);
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary) VALUES (88,'Habib','Chittagong',48000);
+
+INSERT INTO Employee_info(EmpID,EmpName,City,Salary)
+VALUES
+(89,'Test1','Dhaka',50000),
+(90,'Test2','Khulna',48000),
+(91,'Test3','Sylhet',51000);
 --DROP TABLE Employee_info;
 
 create table Department(
@@ -346,6 +452,64 @@ values (104, 'Marketing', 4);
 
 insert into Department(DeptID, DeptName, EmpID)
 values (105, 'Sales', 5);
+INSERT INTO Department(DeptID, DeptName, EmpID) VALUES (106, 'HR', 6);
+INSERT INTO Department VALUES (107, 'IT', 7);
+INSERT INTO Department VALUES (108, 'Accounts', 8);
+INSERT INTO Department VALUES (109, 'Marketing', 9);
+INSERT INTO Department VALUES (110, 'Sales', 10);
+INSERT INTO Department VALUES (111, 'Finance', 11);
+INSERT INTO Department VALUES (112, 'Admin', 12);
+INSERT INTO Department VALUES (113, 'Support', 13);
+INSERT INTO Department VALUES (114, 'HR', 14);
+INSERT INTO Department VALUES (115, 'IT', 15);
+
+INSERT INTO Department VALUES (116, 'Accounts', 16);
+INSERT INTO Department VALUES (117, 'Marketing', 17);
+INSERT INTO Department VALUES (118, 'Sales', 18);
+INSERT INTO Department VALUES (119, 'Finance', 19);
+INSERT INTO Department VALUES (120, 'Admin', 20);
+INSERT INTO Department VALUES (121, 'Support', 21);
+INSERT INTO Department VALUES (122, 'HR', 22);
+INSERT INTO Department VALUES (123, 'IT', 23);
+INSERT INTO Department VALUES (124, 'Accounts', 24);
+INSERT INTO Department VALUES (125, 'Marketing', 25);
+
+INSERT INTO Department VALUES (126, 'Sales', 26);
+INSERT INTO Department VALUES (127, 'Finance', 27);
+INSERT INTO Department VALUES (128, 'Admin', 28);
+INSERT INTO Department VALUES (129, 'Support', 29);
+INSERT INTO Department VALUES (130, 'HR', 30);
+INSERT INTO Department VALUES (131, 'IT', 31);
+INSERT INTO Department VALUES (132, 'Accounts', 32);
+INSERT INTO Department VALUES (133, 'Marketing', 33);
+INSERT INTO Department VALUES (134, 'Sales', 34);
+INSERT INTO Department VALUES (135, 'Finance', 35);
+
+INSERT INTO Department VALUES (136, 'Admin', 36);
+INSERT INTO Department VALUES (137, 'Support', 37);
+INSERT INTO Department VALUES (138, 'HR', 38);
+INSERT INTO Department VALUES (139, 'IT', 39);
+INSERT INTO Department VALUES (140, 'Accounts', 40);
+INSERT INTO Department VALUES (141, 'Marketing', 41);
+INSERT INTO Department VALUES (142, 'Sales', 42);
+INSERT INTO Department VALUES (143, 'Finance', 43);
+INSERT INTO Department VALUES (144, 'Admin', 44);
+INSERT INTO Department VALUES (145, 'Support', 45);
+
+INSERT INTO Department VALUES (146, 'HR', 46);
+INSERT INTO Department VALUES (147, 'IT', 47);
+INSERT INTO Department VALUES (148, 'Accounts', 48);
+INSERT INTO Department VALUES (149, 'Marketing', 49);
+INSERT INTO Department VALUES (150, 'Sales', 50);
+INSERT INTO Department VALUES (151, 'Finance', 51);
+INSERT INTO Department VALUES (152, 'Admin', 52);
+INSERT INTO Department VALUES (153, 'Support', 53);
+INSERT INTO Department VALUES (154, 'HR', 54);
+INSERT INTO Department VALUES (155, 'IT', 55);
+
+INSERT INTO Department VALUES (156, 'Accounts', 56);
+INSERT INTO Department VALUES (157, 'Marketing', 57);
+INSERT INTO Department VALUES (158, 'Sales', 58);
 
 
 
@@ -545,3 +709,37 @@ create table abc(
 Drop table abc;
 
 select * from abc;
+
+
+--LEFT JOIN
+Select E.EmpName,D.DeptName,E.Salary
+From Employee_info E
+LEFT JOIN Department D
+ON E.EmpID=D.EmpID;
+
+
+Select * 
+From Employee_info E
+Left Join Department D
+On  E.EmpID=D.EmpID;
+
+
+--Right Join
+Select E.EmpName,D.DeptName,E.Salary
+From Employee_info E
+Right Join 
+Department D
+On E.EmpID=D.EmpID;
+
+--Full Join
+Select * 
+From Employee_info E
+Full Join Department D
+on E.EmpID=D.EmpID;
+
+
+--Self Join
+SELECT A.EmpName, B.EmpName AS Manager
+FROM employee A
+JOIN employee B
+ON A.ID = B.ID;
