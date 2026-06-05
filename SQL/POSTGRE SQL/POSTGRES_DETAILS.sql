@@ -2189,3 +2189,382 @@ SELECT id,
        name,
        (name || '-' || id) AS name_id
 FROM customers;
+
+-- =========================================================
+-- QUERY 81
+-- QUESTION:
+-- Extract 3 characters from each customer name,
+-- starting from the 2nd character position.
+--
+-- EXAMPLE:
+-- Rahim → ahi
+-- Karim → ari
+-- Salma → alm
+--
+-- TOPIC:
+-- SUBSTRING()
+--
+-- ERP USE CASE:
+-- Used for extracting portions of customer codes,
+-- item codes, account numbers and document numbers.
+-- =========================================================
+
+SELECT id,
+       name,
+       SUBSTRING(name FROM 2 FOR 3) AS middle_name
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 82
+-- QUESTION:
+-- Replace every occurrence of the letter 'a'
+-- in customer names with the letter 'X'.
+--
+-- EXAMPLE:
+-- Rahim → RXhim
+-- Karim → KXrim
+--
+-- TOPIC:
+-- REPLACE()
+--
+-- ERP USE CASE:
+-- Used for data cleansing,
+-- text transformation and standardization.
+-- =========================================================
+
+SELECT id,
+       name,
+       REPLACE(name,'a','X') AS replace_name
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 83
+-- QUESTION:
+-- Insert sample customer names containing
+-- unnecessary leading and trailing spaces
+-- for string-cleaning practice.
+--
+-- TOPIC:
+-- INSERT TEST DATA
+--
+-- ERP USE CASE:
+-- Simulates real-world dirty data entered
+-- by users during customer creation.
+-- =========================================================
+
+INSERT INTO customers(name)
+VALUES
+('     mAHIN       '),
+('   S   O JoL                        ');
+
+
+
+-- =========================================================
+-- QUERY 84
+-- QUESTION:
+-- Display all customer records after inserting
+-- names containing extra spaces to verify
+-- how the raw data is stored.
+--
+-- TOPIC:
+-- SELECT *
+--
+-- ERP USE CASE:
+-- Used to inspect imported or manually entered data.
+-- =========================================================
+
+SELECT * FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 85
+-- QUESTION:
+-- Remove leading and trailing spaces
+-- from customer names and display both
+-- original and cleaned values.
+--
+-- TOPIC:
+-- TRIM()
+--
+-- ERP USE CASE:
+-- Used before searching, matching,
+-- exporting and validating master data.
+-- =========================================================
+
+SELECT id,
+       name,
+       TRIM(name) AS trimmed_name
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 86
+-- QUESTION:
+-- Find the position of the first occurrence
+-- of the letter 'a' within each customer name.
+--
+-- EXAMPLE:
+-- Rahim → 2
+-- Karim → 2
+--
+-- TOPIC:
+-- POSITION()
+--
+-- ERP USE CASE:
+-- Used in advanced text parsing,
+-- validation and code analysis.
+-- =========================================================
+
+SELECT id,
+       name,
+       POSITION('a' IN name) AS a_position
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 87
+-- QUESTION:
+-- Reverse each customer name and display
+-- the reversed value.
+--
+-- EXAMPLE:
+-- Rahim → mihaR
+-- Salma → amlaS
+--
+-- TOPIC:
+-- REVERSE()
+--
+-- ERP USE CASE:
+-- Useful for text manipulation exercises,
+-- string analysis and data transformation.
+-- =========================================================
+
+SELECT id,
+       name,
+       REVERSE(name) AS reverse_name
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 88
+-- QUESTION:
+-- Convert customer IDs into a fixed
+-- 5-digit format by adding leading zeros.
+--
+-- EXAMPLE:
+-- 1  → 00001
+-- 15 → 00015
+--
+-- TOPIC:
+-- LPAD()
+--
+-- ERP USE CASE:
+-- Used for invoice numbers, customer codes,
+-- employee IDs and document numbering systems.
+-- =========================================================
+
+SELECT id,
+       name,
+       LPAD(id::TEXT,5,'0') AS customer_code
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 89
+-- QUESTION:
+-- Generate a custom employee/customer style code
+-- by padding the ID with a predefined text pattern.
+--
+-- EXAMPLE:
+-- 1 → EMP0001
+-- 2 → EMP0002
+--
+-- TOPIC:
+-- LPAD() WITH CUSTOM PREFIX PATTERN
+--
+-- ERP USE CASE:
+-- Used for creating formatted ERP codes
+-- such as EMP0001, CUS0001, VEN0001.
+-- =========================================================
+
+SELECT id,
+       name,
+       LPAD(id::TEXT,7,'EMP0000') AS formatted_code
+FROM customers;
+
+-- =========================================================
+-- QUERY 90
+-- QUESTION:
+-- Remove leading spaces from customer names.
+--
+-- TOPIC:
+-- LTRIM()
+--
+-- ERP USE CASE:
+-- Used to clean imported customer,
+-- vendor and employee master data.
+-- =========================================================
+
+SELECT LTRIM(name) AS trimmed_left_side
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 91
+-- QUESTION:
+-- Remove trailing spaces from customer names.
+--
+-- TOPIC:
+-- RTRIM()
+--
+-- ERP USE CASE:
+-- Used to standardize text fields
+-- before searching and reporting.
+-- =========================================================
+
+SELECT RTRIM(name) AS trimmed_left_side
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 92
+-- QUESTION:
+-- Convert customer names into Proper Case
+-- where the first letter of each word is capitalized.
+--
+-- TOPIC:
+-- INITCAP()
+--
+-- ERP USE CASE:
+-- Used to display customer and employee
+-- names in professional report formats.
+-- =========================================================
+
+SELECT INITCAP(name) AS pfofession_name
+FROM customers;
+
+
+
+-- =========================================================
+-- QUERY 93
+-- QUESTION:
+-- Create a new table named employees_info
+-- to store employee full names.
+--
+-- TOPIC:
+-- CREATE TABLE
+--
+-- ERP USE CASE:
+-- Used as employee master data storage.
+-- =========================================================
+
+CREATE TABLE employees_info(
+	id SERIAL PRIMARY KEY,
+	full_name VARCHAR(100)
+);
+
+
+
+-- =========================================================
+-- QUERY 94
+-- QUESTION:
+-- Insert sample employee full names into
+-- the employees_info table.
+--
+-- TOPIC:
+-- INSERT
+--
+-- ERP USE CASE:
+-- Simulates employee master records.
+-- =========================================================
+
+INSERT INTO employees_info(full_name)
+VALUES
+('Md Ashik Shuvo'),
+('S O JOL'),
+('Karim Hossain'),
+('Rahim Uddin');
+
+
+
+-- =========================================================
+-- QUERY 95
+-- QUESTION:
+-- Extract the first word from each employee's
+-- full name.
+--
+-- TOPIC:
+-- SPLIT_PART()
+--
+-- ERP USE CASE:
+-- Used to separate first names from
+-- full employee names.
+-- =========================================================
+
+SELECT full_name,
+       SPLIT_PART(full_name,' ',1) AS first_name
+FROM employees_info;
+
+
+
+-- =========================================================
+-- QUERY 96
+-- QUESTION:
+-- Extract the second and third words from
+-- employee full names.
+--
+-- TOPIC:
+-- SPLIT_PART()
+--
+-- ERP USE CASE:
+-- Used for parsing middle names
+-- and surnames separately.
+-- =========================================================
+
+SELECT full_name,
+       SPLIT_PART(full_name,' ',2) AS middle_name
+FROM employees_info;
+
+SELECT full_name,
+       SPLIT_PART(full_name,' ',3) AS last_name
+FROM employees_info;
+
+
+
+-- =========================================================
+-- QUERY 97
+-- QUESTION:
+-- Combine all customer names into a single
+-- comma-separated string, then generate
+-- another list containing only names that
+-- start with the letter 'S'.
+--
+-- TOPIC:
+-- STRING_AGG()
+--
+-- ERP USE CASE:
+-- Used for summary reports,
+-- email lists and export generation.
+-- =========================================================
+
+SELECT STRING_AGG(name,',')
+FROM customers;
+
+
+SELECT STRING_AGG(name,',') AS all_names
+FROM customers
+WHERE name LIKE 'S%';
+
+
+
