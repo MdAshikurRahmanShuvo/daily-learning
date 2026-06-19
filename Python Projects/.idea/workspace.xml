@@ -7,7 +7,6 @@
     <list default="true" id="996fe09d-5e49-41d8-8dde-c0d7836d61e2" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/student_management_system/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/student_management_system/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student_management_system" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_system" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student_management_system/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_management_system/operations.py" afterDir="false" />
